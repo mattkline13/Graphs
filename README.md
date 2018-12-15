@@ -1,0 +1,1 @@
+This package will take in a file, build a graph with the input file. After building the graph it will process any manipulations on the graph that are specified then output the results to a file. This package will support both Matrix and Linked List versions of the graph.
