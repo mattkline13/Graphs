@@ -1,0 +1,140 @@
+* Graphs test file
+* By: Matt Kline
+* File: KlineGraphsTest.txt
+unweighted
+undirected
+begin
+A B C D E F G H I J K
+A B
+A C
+A D
+A E
+A F
+A G
+A H
+A I
+A J
+A K
+end
+addVertex M
+true
+addVertex N
+true
+hasEdge B A
+true
+hasEdge C A
+true
+hasEdge D A
+true
+hasEdge E A
+true
+hasEdge F A
+true
+hasEdge G A
+true
+hasEdge H A
+true
+hasEdge I A
+true
+hasEdge J A
+true
+hasEdge K A
+true
+addEdge B C
+true
+addEdge B D
+true
+addEdge B E
+true
+addEdge B F
+true
+addEdge B G
+true
+addEdge B H
+true
+addEdge B I
+true
+addEdge B J
+true
+addEdge B K
+true
+addEdge D C
+true
+addEdge E C
+true
+addEdge F C
+true
+addEdge G C
+true
+addEdge H C
+true
+addEdge I C
+true
+addEdge J C
+true
+addEdge K C
+true
+addEdge A Z
+false
+addEdge Y Z
+false
+addEdge A M
+true
+addEdge B M
+true
+addEdge C M
+true
+addEdge D M
+true
+addEdge E M
+true
+addEdge F M
+true
+addEdge G M
+true
+addEdge H M
+true
+addEdge I M
+true
+addEdge J M
+true
+addEdge K M
+true
+addEdge N A
+true
+addEdge N B
+true
+addEdge N C
+true
+addEdge N D
+true
+addEdge N E
+true
+addEdge N F
+true
+addEdge N G
+true
+addEdge N H
+true
+addEdge N I
+true
+addEdge N J
+true
+addEdge N K
+true
+addVertex L
+true
+addVertex L
+false
+deleteVertex L
+true
+deleteVertex L
+false
+addVertex O
+true
+addVertex P
+true
+addEdge O P
+true
+addEdge P O
+false

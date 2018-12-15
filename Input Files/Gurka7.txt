@@ -1,0 +1,18 @@
+* Graphs test file by J. Gurka
+* File: Judy7.txt
+* This file tests adding and deleting edges in a sparse graph, including
+* duplicate edges being added and non-edges being deleted.
+weighted
+undirected
+begin
+A F B C D
+A B 2.3
+C F 1.0
+A D 6.2
+end
+hasEdge B Q
+false
+isSparse
+true
+deleteEdge C F
+true

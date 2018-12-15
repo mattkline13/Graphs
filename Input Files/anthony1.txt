@@ -1,0 +1,31 @@
+* Graphs test file by Anthony Tran
+* File: Anthony1.txt
+* This file tests adding and deleting edges in a graph, including
+* duplicate edges being added, and checking to see if the disconnected
+* graph is connected
+unweighted
+undirected
+begin
+A E R I S
+A E
+E R
+I S
+end
+isConnected
+false
+addEdge E I
+true
+isConnected
+true
+addEdge I E
+false
+isFullyConnected
+false
+deleteEdge I S
+true
+isConnected
+false
+deleteVertex A
+true
+deleteEdge A B
+false

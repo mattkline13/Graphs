@@ -1,0 +1,23 @@
+#! /bin/bash
+
+javac Matrix/Graphs.java
+javac Linked\ List/Graphs.java
+
+mkdir Linked\ List\ Output
+mkdir Matrix\ Output
+
+java Matrix/Graphs.java anthony1.txt
+java Matrix/Graphs.java Emily.txt
+java Matrix/Graphs.java Gurka7.txt
+java Matrix/Graphs.java Kline1.txt
+java Matrix/Graphs.java Kline2.txt
+
+mv *_output.txt Matrix\ Output/
+
+java Linked\ List/Graphs.java anthony1.txt
+java Linked\ List/Graphs.java Emily.txt
+java Linked\ List/Graphs.java Gurka7.txt
+java Linked\ List/Graphs.java Kline1.txt
+java Linked\ List/Graphs.java Kline2.txt
+
+mv *_output.txt Linked\ List/ Output/ 

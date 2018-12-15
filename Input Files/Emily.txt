@@ -1,0 +1,41 @@
+* This creates a connected
+* (but not fully connected) graph
+* then adds several new vertices and edges
+* to erase the connectivity.
+* Runs the isConnected function again to
+* confirm the new edges made it unconnected
+weighted
+undirected
+begin
+A B C D E F G H I J K L M
+A B 1.0
+B C 1.0
+C D 1.0
+D E 1.0
+E F 6.0
+F G 2.0
+G H 2.0
+H I 6.0
+I J 1.0
+J K 1.0
+K L 1.0
+L M 1.0
+end
+isConnected
+True
+addVertex N
+True
+addVertex O
+True
+addVertex P
+True
+addVertex Q
+True
+addEdge N O 3.0
+True
+addEdge N P 3.0
+True
+addEdge N Q 3.0
+True
+isConnected
+False
